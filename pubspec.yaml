@@ -1,0 +1,67 @@
+name: coffeenity
+description: "A Coffee App"
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  dio: any
+  pay: any
+  intl: any
+  lottie: any
+  logger: any
+  badges: any
+  record: any
+  open_file: any
+  go_router: any
+  equatable: any
+  geolocator: any
+  local_auth: any
+  flutter_map: any
+  flutter_svg: any
+  skeletonizer: any
+  flutter_bloc: any
+  url_launcher: any
+  path_provider: any
+  speech_to_text: any
+  toastification: any
+  connectivity_plus: any
+  intl_mobile_field: any
+  permission_handler: any
+  shared_preferences: any
+  flutter_rating_bar: any
+  webview_flutter: any
+  cached_network_image: any
+  internet_connection_checker_plus: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 700
